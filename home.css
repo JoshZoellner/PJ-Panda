@@ -1,0 +1,124 @@
+/*_______________________________[HEADINGS]_______________________________*/
+
+h1{
+  margin: auto;
+}
+h2{
+  margin: auto;
+}
+h3{}
+h4{}
+h5{}
+h6{}
+
+/*_______________________________[GENERAL]_______________________________*/
+
+body{
+  background-color: white;
+  margin: 0 0;
+}
+
+p{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+/*_______________________________[CLASSES]_______________________________*/
+
+.navbar{
+  background-color:white;
+  margin: 2em 0 2em 0;
+}
+
+.logo{
+  width: 4em;
+  height: 4em;
+  margin: 1em 1em;
+}
+
+.navlinks{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 0 0;
+}
+
+.links{
+  font-size: 1.5em;
+  margin: 0 1.5em;
+}
+
+.photo1{
+  height: 30em; 
+  width: 30em;
+  display: flex;
+  margin: auto;
+}
+
+.mainTitle{
+  margin: 1em 0 0 0;
+}
+
+.block1{
+  background-color: white;
+}
+
+.mainTitle{
+  text-align: center;
+}
+
+.subTitle{
+  text-align: center;
+}
+
+.content{
+  margin: 0 2em;
+  padding: 0 16em;
+}
+
+
+/*_______________________________[ID's]_______________________________*/
+
+
+
+/*_______________________________[LINKS]_______________________________*/
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #edb7d9;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffc1e6;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/*_______________________________[COLORS]_______________________________*/
+
+.green{
+  color: green;
+}
+
+.mint{
+  color: #98ff9880;
+}
+
+.pjgreen{
+  color: #92f0ce;
+}
+
+.pink{
+  color: rgb(240, 25, 256);
+}
